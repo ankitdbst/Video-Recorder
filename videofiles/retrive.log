@@ -1,0 +1,12 @@
+[Wed May 30 22:06:43 2012] [info] [client 127.0.0.1] file name is C:\xampp\htdocs\videorecorder/videofiles/mp4/232.mp4
+[Wed May 30 22:06:43 2012] [error] [client 127.0.0.1] ACTION: CREATE; Cant'n move uploaded file: 232.mp4 -> C:\xampp\htdocs\videorecorder/videofiles/mp4/232.mp4
+[Wed May 30 22:07:08 2012] [info] [client 127.0.0.1] file name is C:\xampp\htdocs\videorecorder/videofiles/mp4/sdsd.mp4
+[Wed May 30 22:07:08 2012] [error] [client 127.0.0.1] ACTION: CREATE; Cant'n move uploaded file: sdsd.mp4 -> C:\xampp\htdocs\videorecorder/videofiles/mp4/sdsd.mp4
+[Wed May 30 22:17:15 2012] [info] [client 127.0.0.1] file name is C:\xampp\htdocs\videorecorder/videofiles/mp4/d.mp4
+[Wed May 30 22:17:15 2012] [info] [client 127.0.0.1] ACTION: CREATE; exit ACCEPTED
+[Wed May 30 22:17:15 2012] [info] [client 127.0.0.1] file name is C:\xampp\htdocs\videorecorder/videofiles/mp4/d.mp4
+[Wed May 30 22:17:15 2012] [info] [client 127.0.0.1] ACTION: APPEND; exit ACCEPTED
+[Wed May 30 22:20:55 2012] [info] [client 127.0.0.1] file name is C:\xampp\htdocs\videorecorder/videofiles/mp4/sdsd.mp4
+[Wed May 30 22:20:55 2012] [info] [client 127.0.0.1] ACTION: CREATE; exit ACCEPTED
+[Wed May 30 22:20:55 2012] [info] [client 127.0.0.1] file name is C:\xampp\htdocs\videorecorder/videofiles/mp4/sdsd.mp4
+[Wed May 30 22:20:55 2012] [info] [client 127.0.0.1] ACTION: APPEND; exit ACCEPTED

@@ -1,0 +1,16 @@
+Introduction
+------------
+Video recording plugin using Vimas applet to record and playback Video Stream. The demo version for the applet records 20 secs of Video Content.
+More on Vimas : http://vimas.org
+
+Requirement
+-----------
+ JRE 1.4+
+
+Copyright
+---------
+2012 Ankit Gupta
+
+License
+-------
+GPL v3 or later
