@@ -1,53 +1,53 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
-	<head>
-		<title>Video Recording Plugin</title>
-		<script type="text/javascript" src="videorecorder.js"></script>
-	</head>
+    <head>
+        <title>Video Recording Plugin</title>
+        <script type="text/javascript" src="videorecorder.js"></script>
+    </head>
 
-	<body onLoad="vision();	setFileName();">
+    <body onLoad="vision();    setFileName();">
 
-		<span id="loading" style="visibility:visible">
-			<div align="center" style="color:#000000;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:14px">
-			Loading Java applet...
-			</div>
-		</span>
+        <span id="loading" style="visibility:visible">
+            <div align="center" style="color:#000000;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:14px">
+            Loading Java applet...
+            </div>
+        </span>
 
-		<span id="loaded" style="visibility:hidden">
-		<div align="center" style="color:#000000;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:14px">
-		<applet  
-		  ID	   = "applet"
-		  ARCHIVE  = "VideoApplet.jar"
-		  codebase = "."
-		  code     = "com.vimas.videoapplet.VimasVideoApplet.class"
-		  name     = "VideoApplet"
-		  width    = "260"
-		  height   = "245"
-		  hspace   = "0"
-		  vspace   = "0"
-		  align    = "middle"
-		 MAYSCRIPT>
+        <span id="loaded" style="visibility:hidden">
+        <div align="center" style="color:#000000;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:14px">
+        <applet  
+          ID       = "applet"
+          ARCHIVE  = "VideoApplet.jar"
+          codebase = "."
+          code     = "com.vimas.videoapplet.VimasVideoApplet.class"
+          name     = "VideoApplet"
+          width    = "260"
+          height   = "245"
+          hspace   = "0"
+          vspace   = "0"
+          align    = "middle"
+         MAYSCRIPT>
 
-			<param name = "left"	 			value = "100">
-			<param name = "top" 				value = "200">
-			<param name = "Registration"		value = "demo">
-			<param name = "LocalizationFile" 	value = "localization.xml">
-			<param name = "ServerScript"		value = "http://localhost/videorecorder/record.php">
-			<param name = "TimeLimit"			value = "30">
-			<param name = "BlockSize"			value = "10240">
-			<param name = "UserServerFolder"	value = "mp4">
-			<param name = "LowQuality" 			value = "96,24">
-			<param name = "NormalQuality" 		value = "160,32">
-			<param name = "HighQuality" 		value = "256,48">
-			<param name = "FrameSize"			value = "large">			
-			<param name = "UserPostVariables"	value = "name,country">
-			<param name = "name"				value = "Vimas Video Recorder">
-			<param name = "country"				value = "India">
-		</applet>
-		</div>
-		</span>
-	</body>
+            <param name = "left"                 value = "100">
+            <param name = "top"                 value = "200">
+            <param name = "Registration"        value = "demo">
+            <param name = "LocalizationFile"     value = "localization.xml">
+            <param name = "ServerScript"        value = "http://localhost/videorecorder/record.php">
+            <param name = "TimeLimit"            value = "30">
+            <param name = "BlockSize"            value = "10240">
+            <param name = "UserServerFolder"    value = "mp4">
+            <param name = "LowQuality"             value = "96,24">
+            <param name = "NormalQuality"         value = "160,32">
+            <param name = "HighQuality"         value = "256,48">
+            <param name = "FrameSize"            value = "large">            
+            <param name = "UserPostVariables"    value = "name,country">
+            <param name = "name"                value = "Vimas Video Recorder">
+            <param name = "country"                value = "India">
+        </applet>
+        </div>
+        </span>
+    </body>
 </html>
 <!-- VB SCRIPT BEGINS -->
 <script Language=VBScript><!--
