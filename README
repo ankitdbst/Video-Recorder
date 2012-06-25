@@ -1,12 +1,22 @@
 Introduction
 ------------
-Video recording plugin using Vimas applet to record and playback Video Stream. The demo version for the applet records 20 secs of Video Content.
+Video recording standalone using both Java and Flash technologies.
+
+Vimas Java applet to record and playback Video Stream. The demo version for the applet records 20 secs of Video Content.
 More on Vimas : http://vimas.org
+
+Red5Recorder is an open source project to record and play webcam videos using flash. The recorder requires an RTMP server such as Red5.
+
+More on Red5 : http://code.google.com/p/red5/
+More on Red5Recorder : http://code.google.com/p/red5-recorder/
 
 Requirement
 -----------
  JRE 1.4+
  Windows/Mac OS
+
+ Flash 9+
+ Linux/Windows/Mac OS
 
 Copyright
 ---------
